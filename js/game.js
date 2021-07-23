@@ -59,7 +59,7 @@ class Game{
           var meteor = createSprite(100,70,50,50);
           meteor.x = Math.round(random(50,350));
           meteor.addImage(meteorIMG);
-          meteor.scale = 0.05;
+          meteor.scale = 0.07;
           meteor.velocityY = 8;
           meteor.lifetime = 200;
           meteorGroup.add(meteor);
